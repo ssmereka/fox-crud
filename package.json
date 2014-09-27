@@ -1,0 +1,53 @@
+{
+  "author": {
+    "name": "Scott Smereka",
+    "url": "http://scottsmereka.com"
+  },
+  "bugs": {
+    "url": "http://github.com/ssmereka/fox-crud/issues"
+  },
+  "contributors": [],
+  "dependencies": {
+    "express": "~4.9.5",
+    "mongoose": "~3.8.16"
+  },
+  "description": "",
+  "devDependencies": {
+    "mocha": "1.21.4",
+    "should": "x.x.x",
+    "supertest": "~0.13.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "http://github.com/ssmereka/foxjs",
+  "keywords": [
+    "API",
+    "Awesome",
+    "easy",
+    "free",
+    "MVC",
+    "node.js",
+    "REST"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ssmereka/fox-crud/blob/master/license"
+    }
+  ],
+  "main": "./libs",
+  "name": "fox-crud",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ssmereka/fox-crud"
+  },
+  "scripts": {
+    "test": "mocha -R spec ./test/index.js"
+  },
+  "version": "0.0.1"
+}
